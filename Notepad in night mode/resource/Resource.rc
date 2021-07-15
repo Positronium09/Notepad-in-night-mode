@@ -1,0 +1,166 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+SHORT_CUTS ACCELERATORS
+BEGIN
+    "C",            COPY,                   VIRTKEY, CONTROL, NOINVERT
+    "X",            CUT,                    VIRTKEY, CONTROL, NOINVERT
+    VK_F5,          DATE_TIME,              VIRTKEY, NOINVERT
+    VK_F3,          FIND_NEXT,              VIRTKEY, NOINVERT
+    VK_F3,          FIND_PREV,              VIRTKEY, SHIFT, NOINVERT
+    "F",            FIND_TEXT,              VIRTKEY, CONTROL, NOINVERT
+    "N",            NEW_FILE,               VIRTKEY, CONTROL, NOINVERT
+    "O",            OPEN_FILE,              VIRTKEY, CONTROL, NOINVERT
+    "V",            PASTE,                  VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        REMOVE_WORD,            VIRTKEY, CONTROL, NOINVERT
+    "H",            REPLACE_TEXT,           VIRTKEY, CONTROL, NOINVERT
+    "0",            RESET_ZOOM,             VIRTKEY, CONTROL, NOINVERT
+    "S",            SAVE,                   VIRTKEY, CONTROL, NOINVERT
+    "S",            SAVE_AS,                VIRTKEY, SHIFT, CONTROL, NOINVERT
+    "A",            SELECT_ALL,             VIRTKEY, CONTROL, NOINVERT
+    "Z",            UNDO,                   VIRTKEY, CONTROL, NOINVERT
+    VK_ADD,         ZOOM_IN,                VIRTKEY, CONTROL, NOINVERT
+    VK_SUBTRACT,    ZOOM_OUT,               VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+FONT_DLG DIALOGEX 13, 54, 243, 234
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Font"
+FONT 9, "Segoe UI", 0, 0, 0x0
+BEGIN
+    LTEXT           "&Font:",1088,7,7,98,9
+    COMBOBOX        1136,7,16,98,76,CBS_SIMPLE | CBS_OWNERDRAWFIXED | CBS_AUTOHSCROLL | CBS_SORT | CBS_HASSTRINGS | CBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Font st&yle:",1089,114,7,74,9
+    COMBOBOX        1137,114,16,74,76,CBS_SIMPLE | CBS_OWNERDRAWFIXED | CBS_AUTOHSCROLL | CBS_HASSTRINGS | CBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Size:",1090,198,7,36,9
+    COMBOBOX        1138,198,16,36,76,CBS_SIMPLE | CBS_OWNERDRAWFIXED | CBS_AUTOHSCROLL | CBS_SORT | CBS_HASSTRINGS | CBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Effects",1072,7,97,98,71,WS_GROUP
+    CONTROL         "Stri&keout",1040,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,111,90,10
+    CONTROL         "&Underline",1041,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,127,90,10
+    GROUPBOX        "Sample",1073,114,97,120,43,WS_GROUP
+    CTEXT           "AaBbYyZz",1092,116,106,117,33,SS_NOPREFIX | NOT WS_VISIBLE
+    LTEXT           "",1093,7,178,227,20,SS_NOPREFIX | NOT WS_GROUP
+    LTEXT           "Sc&ript:",1094,114,145,118,9
+    COMBOBOX        1140,114,155,120,30,CBS_DROPDOWNLIST | CBS_OWNERDRAWFIXED | CBS_AUTOHSCROLL | CBS_HASSTRINGS | WS_BORDER | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "<A>Show more fonts</A>",1592,"SysLink",WS_TABSTOP,7,199,227,9
+    DEFPUSHBUTTON   "OK",IDOK,141,215,45,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,190,215,45,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    FONT_DLG, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+FONT_DLG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+ICON_MAIN               ICON                    "notepad.ico"
+
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Turkish (Turkey) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_TRK)
+LANGUAGE LANG_TURKISH, SUBLANG_DEFAULT
+#pragma code_page(1254)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Turkish (Turkey) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

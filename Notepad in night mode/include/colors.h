@@ -1,0 +1,16 @@
+#pragma once
+
+#include <windows.h>
+
+
+const COLORREF WHITE = RGB(0xff, 0xff, 0xff);
+const COLORREF BLACK = RGB(0x00, 0x00, 0x00);
+const COLORREF RED = RGB(0xff, 0x00, 0x00);
+const COLORREF GREEN = RGB(0x00, 0xff, 0x00);
+const COLORREF BLUE = RGB(0x00, 0x00, 0xff);
+const COLORREF YELLOW = RGB(0xff, 0xff, 0x00);
+const COLORREF PINK = RGB(0xff, 0x00, 0xff);
+const COLORREF CYAN = RGB(0x00, 0xff, 0xff);
+
+const COLORREF defaultBackgroundColorref = RGB(0x1b, 0x1b, 0x1b);
+const COLORREF defaultTextColorref = WHITE;
