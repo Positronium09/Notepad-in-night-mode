@@ -455,7 +455,7 @@ LRESULT CALLBACK MainWidnowProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lPara
 				}
 
 				#ifdef _DEBUG
-				case TEST: // For easy testing not compiled if not in debug mode
+				case TEST:
 				{
 					MessageBeep(MB_ICONERROR);
 					break;
@@ -688,7 +688,7 @@ void AddMenus(HWND hWnd)
 	#pragma endregion
 
 	#ifdef _DEBUG
-	AppendMenuW(hMenu, MF_STRING, TEST, L"Test"); // For easy testing not compiled if not in debug mode
+	AppendMenuW(hMenu, MF_STRING, TEST, L"Test");
 	#endif
 
 	SetMenu(hWnd, hMenu);
